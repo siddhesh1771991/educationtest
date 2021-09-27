@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Testgooglesearchis pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-26T16:20:36Z" name="Suite" finished-at="2021-09-26T16:20:43Z" duration-ms="6111">
+    <groups>
+    </groups>
+    <test started-at="2021-09-26T16:20:36Z" name="Test" finished-at="2021-09-26T16:20:43Z" duration-ms="6111">
+      <class name="come.qa.common.BaseTest">
+        <test-method is-config="true" signature="open_App(java.lang.String)[pri:0, instance:come.qa.common.BaseTest@74e28667]" started-at="2021-09-26T21:50:36Z" name="open_App" finished-at="2021-09-26T21:50:42Z" duration-ms="5409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_App -->
+        <test-method signature="googlesearch()[pri:0, instance:come.qa.common.BaseTest@74e28667]" started-at="2021-09-26T21:50:42Z" name="googlesearch" finished-at="2021-09-26T21:50:43Z" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlesearch -->
+        <test-method is-config="true" signature="close_App(org.testng.ITestResult)[pri:0, instance:come.qa.common.BaseTest@74e28667]" started-at="2021-09-26T21:50:43Z" name="close_App" finished-at="2021-09-26T21:50:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=googlesearch status=SUCCESS method=BaseTest.googlesearch()[pri:0, instance:come.qa.common.BaseTest@74e28667] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testgooglesearchis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close_App -->
+      </class> <!-- come.qa.common.BaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
